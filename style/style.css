@@ -25,7 +25,7 @@ body {
 header {
     background-color: #2A2A2C;
     width: 100vw;
-    height: 100px;
+    height: 150px;
     border-bottom: 1px solid #BAAE95;
     border-top: 1px solid #BAAE95;
 }
@@ -125,7 +125,7 @@ h2 {
     background-color: #6c6c726a;
     margin: auto;
     width: 35vw;
-    height: 75vh;
+    height: 60vh;
     padding: 15px;
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
