@@ -147,3 +147,26 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+table {
+    border-collapse: collapse;
+  }
+
+td {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+}
+
+.alive {
+    background-color: #000;
+}
+table {
+    margin: auto;
+}
+
+#start {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
