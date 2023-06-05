@@ -14,6 +14,7 @@
 * {
     padding: 0px;
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -103,14 +104,13 @@ main {
     display: block;
     margin: auto;
     width: 80vw;
-    font-family: 'Baskervville', serif;
+    /* font-family: ; */
     font-size: 1em;
 }
 h1 {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 20px;
-    text-decoration: underline;
     text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.287);
 }
 h2 {
@@ -120,10 +120,23 @@ h2 {
     font-weight: lighter;
     text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.287);
 }
-p {
-    text-indent: 2em;
+
+#divisor {
+    background-color: #6c6c726a;
+    margin: auto;
+    width: 35vw;
+    height: 75vh;
+    padding: 15px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border: 0.3px solid #BAAE95; 
     line-height: 2em;
-    margin-bottom: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.287);
+}
+
+#bill-list {
+    text-align: center;
+    list-style: none;
 }
 
 a {

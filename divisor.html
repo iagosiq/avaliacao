@@ -29,13 +29,39 @@
         </ul>
     </nav>
     <main>
+        <!-- Espaço onde ficará o divisor de contas -->
+        <div id="divisor">
+            <h1>
+                Divisor de Contas
+            </h1>
+            <form id="bill-form">
+                <label for="name">Nome:</label>
+                <input type="text" id="name">
+                <br>
+                <label for="item">Item Consumido:</label>
+                <input type="text" id="item" required>
+                <br>
+                <label for="value">Valor:</label>
+                <input type="number" id="value" required>
+                <br>
+                <label for="tip">Incluir Gorjeta (10%)</label>
+                <input type="checkbox" id="tip">
+                <br>
+                <button type="button" id="add-item">Adicionar Item</button>
+                <button type="submit" id="submit-form">Enviar</button>
+            </form>
+            <div id="bill-details">
+                <h2>Detalhes da Conta:</h2>
+                <ul id="bill-list"></ul>
+            </div>
+        </div>
 
      <!-- link para WhatsApp -->
         <div>
             <a href="https://wa.me/5519997777441" target="_blank"><img src="imagens/wppico.png" alt="WPP" id="wpp"></a> 
         </div>
     </main>
-
+    <script src="js/divisor.js"></script>
     <script src="js/menu.js"></script>
 </body>
 </html>
