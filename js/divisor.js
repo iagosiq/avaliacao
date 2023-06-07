@@ -52,6 +52,6 @@ function updateBillDetails(name) {
 
   // Exibir o nome e o valor total da conta
   var listItem = document.createElement("li");
-  listItem.innerHTML = "<strong>Nome:</strong> " + name + " | <strong>Total:</strong> R$ " + (isNaN(total) ? '0.00' : total.toFixed(2));
+  listItem.innerText = "Nome: " + name + " | Total: R$ " + (isNaN(total) ? '0.00' : total.toFixed(2));
   billList.appendChild(listItem);
 }

@@ -71,16 +71,16 @@ function romanToArabic(romanNumeral) {
     }
   
     let resultado = '';
-  
-    if (/^\d+$/.test(valor)) {
+
+      if (/^\d+$/.test(valor)) {
       // É um número arábico, então converte para romano
       const arabicNumber = parseInt(valor, 10);
       resultado = arabicToRoman(arabicNumber);
-      resultadoElement.innerHTML = 'O número ARÁBICO "' + inputElement.value + '" convertido para ROMANO é: ' + resultado
+      resultadoElement.innerText = 'O número ARÁBICO "' + inputElement.value + '" convertido para ROMANO é: ' + resultado
     } else {
       // É um número romano, então converte para arábico
       resultado = romanToArabic(valor.toUpperCase());
-      resultadoElement.innerHTML = 'O número ROMANO "' + inputElement.value + '" convertido para ARÁBICO é: ' + resultado
+      resultadoElement.innerText = 'O número ROMANO "' + inputElement.value + '" convertido para ARÁBICO é: ' + resultado
     }   
   }
   
